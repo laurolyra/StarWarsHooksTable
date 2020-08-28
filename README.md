@@ -30,6 +30,8 @@ Todos os requisitos abaixo constituem regras de negócio definidas pela escola. 
 
 ## 1 - A cobertura de testes do projeto está em 90%.
 
+Para conferir, basta instalar as dependências conforme mencionado acima e, em seguida, executar npm run `test-coverage`
+
 ## 2 - O projeto foi feito, necessariamente, utilizando Context API e Hooks para controlar estado.
 
 O estado especificado nos requisitos é controlado fazendo uso **unicamente** de **Context API** e **Hooks**.
