@@ -10,7 +10,7 @@ Criei um projeto em React utilizando _hooks_ e _context API_ para controle de es
 
 1 - Clone este repositório
 
-`git clone git@github.com:laurolyra/my-projects.git`
+`git clone git@github.com:laurolyra/StarWarsHooksTable.git`
 
 2 - Vá para a pasta do projeto
 
