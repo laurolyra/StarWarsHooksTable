@@ -28,7 +28,7 @@ Criei um projeto em React utilizando _hooks_ e _context API_ para controle de es
 
 Todos os requisitos abaixo constituem regras de negócio definidas pela escola. Não me sendo autorizado alterá-las para uma outra arquitetura ou uso de outra tecnologia.
 
-## 1 - A cobertura de testes do projeto está em 90%.
+## 1 - A cobertura de testes do projeto está acima de 90%.
 
 Para conferir, basta instalar as dependências conforme mencionado acima e, em seguida, executar `npm run test-coverage`
 
