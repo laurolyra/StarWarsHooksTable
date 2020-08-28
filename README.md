@@ -14,7 +14,7 @@ Criei um projeto em React utilizando _hooks_ e _context API_ para controle de es
 
 2 - Vá para a pasta do projeto
 
-`cd StarWarsHooks`
+`cd StarWarsHooksTable`
 
 3 - Instale as dependências
 
