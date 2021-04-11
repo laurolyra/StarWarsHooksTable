@@ -31,7 +31,7 @@ Every requirement down below refers to business rules defined by Trybe, which I 
 ## 1 - Test coverage is greater than 90%.
 To check this out, just run on your terminal, after step 3, `npm run test-coverage`
 
-## 2 - When mounted, the page makes a request to the endpoiint `/planets` from a Star Wars API and fill a table with every data but the key `residents`.
+## 2 - When mounted, the page makes a request to the endpoint `/planets` from a Star Wars API and fill a table with every data but the key `residents`.
 
 All API data is stored in a field called `data` inside the `store`. A component called `<Table />` renders every data from context.
 
