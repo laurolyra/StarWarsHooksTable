@@ -33,7 +33,7 @@ To check this out, just run on your terminal, after step 3, `npm run test-covera
 
 ## 2 - When mounted, the page makes a request to the endpoint `/planets` from a Star Wars API and fill a table with every data but the key `residents`.
 
-All API data is stored in a field called `data` inside the `store`. A component called `<Table />` renders every data from context.
+A component called `<Table />` renders every data from context, which stores every data from API's response.
 
 ## 3 - Text Field that filters the table to show only planets whose names includes part of the text.
 
