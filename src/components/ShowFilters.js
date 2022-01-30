@@ -10,7 +10,7 @@ const ShowFilters = () => {
   return filters[0].numericValues.column && (
     <div className="filterContainer">
       {filters.map(({ numericValues }) => (
-        <div className="filters" data-testid={`Show-${numericValues.column}`}>
+        <div className="filters" key={`Key-${numericValues.column}`} data-testid={`Show-${numericValues.column}`}>
           <p key={numericValues.column}>{numericValues.column}</p>
           <p key={numericValues.comparison}>{numericValues.comparison}</p>
           <p key={numericValues.value}>{numericValues.value}</p>

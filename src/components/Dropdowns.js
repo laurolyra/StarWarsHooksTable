@@ -22,9 +22,10 @@ const Dropdowns = () => {
     <div>
       {columnOptions.length !== 0
         ? (
-      [<GenerateColumns />,
-        <GenerateComparison />,
+      [<GenerateColumns key='generate-columns' />,
+        <GenerateComparison key='generate-comparison' />,
         <button
+          key='dropdowns-button'
           type="button"
           onClick={() => createFilter()}
         >
