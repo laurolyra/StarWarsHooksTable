@@ -36,6 +36,13 @@ const SWProvider = ({ children }) => {
       );
   }, []);
 
+  const formatString = (snakeString) => {
+    return snakeString === "url"
+      ? snakeString.toUpperCase()
+      : snakeString.charAt(0).toUpperCase() +
+          snakeString.slice(1).split("_").join(" ");
+  };
+
   const eraseColumn = (array, column) => {
     const restoreFilter = array.filter(({ numericValues }) => (numericValues.column !== column));
     const initialFilter = {
@@ -61,6 +68,7 @@ const SWProvider = ({ children }) => {
     setFilters,
     text,
     setText,
+    formatString,
     eraseColumn,
     columnOptions,
     setColumnOptions,

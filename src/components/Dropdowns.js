@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import SWContext from '../context/starWarsContext';
 import GenerateColumns from './GenerateColumns';
 import GenerateComparison from './GenerateComparison';
+import './Dropdowns.css';
 
 const Dropdowns = () => {
   const {
@@ -19,7 +20,7 @@ const Dropdowns = () => {
       .filter((item) => item !== newNumericValues.numericValues.column));
   };
   return (
-    <div>
+    <div className="dropdowns-container">
       {columnOptions.length !== 0
         ? (
       [<GenerateColumns key='generate-columns' />,

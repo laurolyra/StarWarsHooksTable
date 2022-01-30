@@ -1,8 +1,22 @@
-h1 {
+h1,
+p {
   color: yellow;
 }
 
-.tableData , .tableHeader {
+a {
+  color: white;
+}
+
+.input-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.tableData,
+.tableHeader {
   border: 1px solid yellow;
   box-sizing: border-box;
   color: white;

@@ -6,6 +6,7 @@ const SortFilters = () => {
     sFilters,
     setData,
     data,
+    formatString,
     setSFilters,
   } = useContext(SWContext);
   const sortOrder = (e) => { setSFilters([{ ...sFilters[0], order: e.target.value }]); };
@@ -23,7 +24,7 @@ const SortFilters = () => {
         {Object.keys(data[0])
           .map((item) => (
             <option key={item} value={item}>
-              {item}
+              {formatString(item)}
             </option>
           ))}
       </select>

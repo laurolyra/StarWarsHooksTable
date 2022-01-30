@@ -12,7 +12,7 @@ const Table = () => {
   return (
     <div>
       {data && (
-        <div>
+        <div className="input-container">
           <input data-testid="inputPlanets" onChange={(e) => setText(e.target.value)} />
           <Dropdowns />
           <SortFilters />

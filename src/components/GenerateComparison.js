@@ -15,7 +15,7 @@ const GenerateComparison = () => {
       </select>
       <input
         data-testid="numberSelector"
-        type="number"
+        type="text"
         placeholder="type a number here!"
         onChange={(e) => changeNewNumericValues('value', e)}
       />

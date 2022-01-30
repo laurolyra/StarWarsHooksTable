@@ -5,6 +5,7 @@ const GenerateColumns = () => {
   const {
     changeNewNumericValues,
     columnOptions,
+    formatString,
   } = useContext(SWContext);
 
   return (
@@ -15,7 +16,7 @@ const GenerateColumns = () => {
       >
         <option value="" hidden>Select Column</option>
         {columnOptions
-          .map((option) => <option key={option} name="column" value={option}>{option}</option>)}
+          .map((option) => <option key={option} name="column" value={option}>{formatString(option)}</option>)}
       </select>
     </div>
   );
